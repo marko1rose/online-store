@@ -15,6 +15,8 @@
 	
 	<context:component-scan base-package="com.marko.onlinestore.controller"/>
 	
+	<context:component-scan base-package="com.marko.shoppingbackend.daoimpl"/>
+	
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/"></property>
 		<property name="suffix" value=".jsp"></property>

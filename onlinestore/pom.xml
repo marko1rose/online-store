@@ -14,6 +14,12 @@
 		<spring.version>5.1.3.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+	
+	<dependency>
+		<groupId>com.marko</groupId>
+  		<artifactId>shoppingbackend</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
 
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
